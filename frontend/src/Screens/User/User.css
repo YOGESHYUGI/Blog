@@ -1,0 +1,133 @@
+.setnav{
+    display: flex;
+    margin: 0 2%;
+    background-color:rgb(238, 238, 238);
+}
+ 
+.set1{
+    display: flex;
+    padding-left: 2%;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+    
+}
+ 
+.set2{
+    width: 100%;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    padding-right: 2%;
+    justify-content: flex-end;
+}
+ 
+.setmain{
+    margin:0% 10%;
+}
+ 
+.setmain h2{
+    font-weight:200;
+    padding-top: 2%;
+    color: orange;
+}
+ 
+.setdetails{
+    margin: 1% 5%;
+}
+.setdetails h3{
+    font-weight:200;
+}
+.setdetailsmain{
+    display: grid;
+    grid-template-columns: 20% 40% 40%;
+    align-items: center;
+}
+.setdetailsmain .setss{
+    font-weight: 400;
+}
+.setdetailsmain .suvs{
+    color: gray;
+    font-weight: 400;
+}
+.setdetailsmain input{
+    height: 4vh;
+    width: 70%;
+}
+ 
+.setdetailsmain1{
+    padding: 0% 30%;
+}
+ 
+.setdetailsmain1 input{
+    width: 80%;
+}
+ 
+.setdetailsmain2{
+    display: grid;
+    grid-template-columns: 20% 75%; 
+    align-items: center;
+}
+.radioss{
+    display: flex;
+    gap: 5%;
+}
+
+.butlast{
+    margin-top: 1rem;
+    width: 8rem;
+    height: 5vh;
+    background-color: rgb(255, 87, 34);
+    color: aliceblue;
+    border-color:rgb(255, 87, 34);
+}
+
+
+ 
+@media only screen and (max-width:768px){
+    .setmain{
+        margin:0% 1%;
+    }
+
+    .setdetails{
+        margin: 1% 1%;
+    }
+    .setdetailsmain{
+    display: grid;
+    grid-template-columns: 20% 40% 1FR;
+    gap: 5%;
+    align-items: center;
+}
+.setdetailsmain1{
+    padding: 0% 20%;
+}
+    
+}
+
+@media only screen and (max-width:426px){
+    .setdetailsmain .setss{
+        font-weight: 300;
+    }
+    .setdetailsmain1{
+        padding: 0% 10%;
+    }
+    .butlast{
+        margin-top: 1rem;
+        width: 6rem;
+        height: 5vh;
+        background-color: rgb(255, 87, 34);
+        color: aliceblue;
+        border-color:rgb(255, 87, 34);
+    }
+    .radioss{
+        display: flex;
+        gap: 2%;
+    }
+    
+}
+
+@media only screen and (max-width:375px){
+    .setdetailsmain .setss{
+        font-weight: 200;
+    }
+}

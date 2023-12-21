@@ -1,0 +1,249 @@
+.signinbox {
+    width: 30rem;
+    border-radius: 10px;
+    margin: 35px auto;
+    height: 33rem;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+}
+ 
+.sighead {
+    padding-top: 30px;
+    text-align: center;   
+}
+ 
+.sighead p {
+    word-spacing: 2px;
+    font-size: 17px;
+}
+ 
+.sighead h2 {
+    font-weight: 400;
+}
+ 
+.sigimage {
+    max-width: 5rem;
+}
+ 
+.sigbody {
+ 
+    padding-left: 40px;
+    padding-right: 45px;
+    text-align: left;
+}
+ 
+.sigbody1 {
+    padding-top: 1rem;
+}
+ 
+.sigbody1 a {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    color: blue;
+}
+ 
+.siginput {
+   width: 95%;
+    height: 3.5rem;
+    font-size: medium;
+    background: none;
+    border: 2px solid #a1a1a1;
+    outline: none;
+    border-radius: 3px;
+    padding-left: 1rem;
+    color: black;
+    border: 1px solid #a1a1a1;
+}
+ 
+.sigcheck {
+    display: flex;
+    margin-left: 0px !important;
+    gap: 15px;
+    align-items: center;
+}
+ 
+.sigcheck p {
+    font-size: 14px;
+}
+ 
+input[type=checkbox] {
+    border: 2px solid;
+    margin-left: -5px;
+    width: 30px;
+    height: 18px;
+}
+ 
+.siginput:focus {
+    border: 2px solid #1B66C9;
+}
+ 
+.sigbody2 {
+    padding-top: 10px;
+}
+ 
+.sigbody2 p {
+    font-size: 15px;
+}
+ 
+.sigbody2 a {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    color: blue;
+}
+ 
+.sigbody3 {
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+ 
+.sigbody3 a {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    color: blue;
+}
+ 
+.nextbutt {
+    background-color: blue;
+    color: aliceblue;
+    width: 5rem;
+    height: 7vh;
+    font-weight: bold;
+    border-radius: 5px;
+    border-color: blue;
+    cursor: pointer;
+}
+ 
+.signlast {
+    width: 30rem;
+    display: flex;
+    margin: 35px auto;
+    justify-content: space-between;
+}
+ 
+.signlast select {
+    width: 12rem;
+    border-color: white;
+}
+ 
+.lastes {
+    display: flex;
+    justify-content: space-evenly;
+    width: 13rem;
+    font-size: small;
+}
+ 
+.lastes p a {
+    text-decoration: none;
+}
+ 
+.mail {
+    width:fit-content;
+    display: flex;
+    border: 1px solid #a1a1a1;
+    border-radius: 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+ 
+.mail .profileicon {
+    margin-top: 1px;
+    margin-bottom: 0px;
+}
+ 
+.mail .emailicon {
+    margin-top: 0px;
+    margin-bottom: 5px;
+    font-weight: 500;
+    font-size: medium;
+}
+ 
+@media only screen and (max-width: 500px) {
+    .signinbox{
+        width: 25rem;
+    }
+    .signlast {
+        width: 20rem;
+        display: flex;
+        margin: 35px auto;
+        justify-content: space-between;
+    }
+    .nextbutt {
+        background-color: blue;
+        color: aliceblue;
+        width: 5rem;
+        height: 5vh;
+        font-weight: bold;
+        border-radius: 5px;
+        border-color: blue;
+        cursor: pointer;
+    }
+ 
+   
+}
+ 
+@media only screen and (max-width: 400px) {
+    .signinbox{
+        width: 20rem;
+    }
+    .signlast {
+        width: 20rem;
+    }
+    .nextbutt {
+        color: aliceblue;
+        width: 5rem;
+        height: 5vh;
+        font-weight: bold;
+        border-radius: 5px;
+        border-color: blue;
+        cursor: pointer;
+    }
+   
+}
+ 
+@media only screen and (max-width: 320px) {
+    .signinbox{
+        width: 18rem;
+    }
+    .signlast {
+        width: 18rem;
+    }
+    .nextbutt {
+        color: aliceblue;
+        width: 5rem;
+        height: 5vh;
+        font-weight: bold;
+        border-radius: 5px;
+        border-color: blue;
+        cursor: pointer;
+    }
+   
+}
+ 
+@media only screen and (max-width: 290px) {
+    .signinbox{
+        width: 16rem;
+    }
+    .signlast {
+        width: 16rem;
+    }
+    .nextbutt {
+        color: aliceblue;
+        width: 5rem;
+        height: 5vh;
+        font-weight: bold;
+        border-radius: 5px;
+        border-color: blue;
+        cursor: pointer;
+    }
+   
+}

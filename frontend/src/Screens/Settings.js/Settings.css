@@ -1,0 +1,43 @@
+.setting{
+    padding-top: 2rem;
+    padding-left: 2rem;
+    width: 50%;
+}
+ 
+.setting-active{
+    padding-left: 22rem;
+    width: 30%;
+}
+ 
+.setting .set{
+    font-weight: 400;
+    font-size: mediums;
+}
+ 
+.setting h4 a{
+    font-weight: 400;
+    color: gray;
+    text-decoration: none;
+}
+ 
+@media only screen and (max-width:768px){
+    .setting{
+        padding-top: 2rem;
+        padding-left: 2rem;
+        width: 60%;
+    }
+    .setting-active{
+        width: 60%;
+    }
+}
+ 
+@media only screen and (max-width:426px){
+    .setting{
+        padding-top: 2rem;
+        padding-left: 2rem;
+        width: 70%;
+    }
+    .setting-active{
+        width: 70%;
+    }
+}

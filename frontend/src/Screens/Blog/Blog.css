@@ -1,0 +1,117 @@
+.blog1 {
+    padding: 10px 50px;
+}
+ 
+.blog1-active {
+    padding-left: 30%;
+}
+ 
+.card {
+    padding: 5px 20px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+ 
+.card:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+}
+ 
+.card h4 {
+    font-weight: 400;
+    color: gray;
+}
+ 
+.card h3 {
+    font-weight: 400;
+}
+ 
+.cardinside {
+    display: grid;
+    grid-template-columns: 10rem 1fr;
+    align-items: center;
+    gap: 1rem;
+}
+ 
+.cardimg {
+    width: 10rem;
+    height: 20vh;
+}
+ 
+.cardpara {
+    height: 19vh;
+    overflow: hidden;
+}
+ 
+.carda {
+    padding-left: 11rem;
+    text-decoration: none;
+    color: gray;
+}
+ 
+@media only screen and (max-width: 768px) {
+    .blog1-active {
+        padding: 10px 50px;
+    }
+ 
+    .cardpara {
+        height: 20vh;
+        overflow: hidden;
+    }
+ 
+}
+ 
+@media only screen and (max-width: 426px) {
+    .blog1 {
+        padding: 10px 20px;
+    }
+ 
+    .cardinside {
+        display: grid;
+        grid-template-columns: 5rem 1fr;
+        align-items: center;
+        gap: 1rem;
+    }
+ 
+    .cardimg {
+        width: 5rem;
+        height: 15vh;
+    }
+ 
+    .cardpara {
+        height: 18vh;
+        overflow: hidden;
+    }
+ 
+    .carda {
+        padding-left: 6rem;
+    }
+ 
+}
+ 
+@media only screen and (max-width: 320px) {
+    .cardinside {
+        display: grid;
+        grid-template-columns: 4rem 1fr;
+        align-items: center;
+        gap: 1rem;
+    }
+ 
+    .cardimg {
+        width: 4rem;
+        height: 15vh;
+    }
+ 
+    .cardpara {
+        height: 18vh;
+        overflow: hidden;
+        font-size: small;
+    }
+ 
+    .carda {
+        font-size: smaller;
+        padding-left: 5rem;
+        text-align: center !important;
+    }
+ 
+}

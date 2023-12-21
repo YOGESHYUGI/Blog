@@ -1,0 +1,150 @@
+.nav {
+    height: 10vh;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    position:sticky !important;
+    top: 0px;
+    bottom: 100px;
+    z-index: 1 !important;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, rgb(209, 213, 219) 0px 0px 0px 1px inset;
+}
+ 
+.nav1 {
+    display: flex;
+    padding-left: 2%;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+}
+ 
+.navicon {
+    max-height: 8vh;
+    cursor: pointer;
+}
+ 
+.navicon11 {
+    max-height: 8vh;
+}
+ 
+.navicon1 {
+    max-height: 6vh;
+    cursor: pointer;
+    border-radius: 20px;
+}
+ 
+.navtit {
+    font-weight: 500;
+    cursor: pointer;
+}
+ 
+.navtit11 {
+    font-weight: 500;
+}
+ 
+.nav2 {
+    width: 100%;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    padding-right: 2%;
+    justify-content: flex-end;
+}
+.ace{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}
+ 
+.ham{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+ 
+.bi{
+    cursor: pointer;
+}
+ 
+.navlink {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+ 
+.navlink:hover {
+    color: rgb(255, 87, 34);
+}
+ 
+.navcrete {
+    height: 7vh;
+    background-color: rgb(255, 87, 34);
+    border-radius: 4px;
+    color: aliceblue;
+    cursor: pointer;
+    border: none;
+    font-weight: 550;
+}
+ 
+.navcrete:hover {
+    background-color: rgb(234, 125, 92);
+}
+  
+/* div[title]:hover::after{
+    content: attr(title);
+    padding: 10px 8px;
+    position: absolute;
+    margin-right: 0.5rem;
+    border-radius: 5px;
+    right: 0;
+    top: 100%;
+    z-index: 1;
+    background:black;
+    color: aliceblue;
+  } */
+ 
+  @media only screen and (max-width: 768px){
+    .navicon {
+        max-height: 7vh;
+        cursor: pointer;
+    }
+    .ace{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+    }
+  }
+@media only screen and (max-width: 430px) {
+ 
+    .navlink {
+        display: none;
+    }
+ 
+    .nav1 {
+        letter-spacing: -1px;
+    }
+    .ace{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+    }
+ 
+}
+ 
+@media only screen and (max-width: 320px) {
+    .nav {
+        gap: 10%;
+    }
+ 
+    .navicon {
+        max-height: 6vh;
+    }
+ 
+}
